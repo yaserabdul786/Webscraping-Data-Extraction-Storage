@@ -11,15 +11,15 @@ def job():
     # Initialize the WebDriver (example with Chrome)
     driver = webdriver.Chrome()
 
-    # Open the login page
-    driver.get("https://www.myrtpos.com/newbdi/EmpRankingMark.fwx")
+    # Open the login page - 
+    driver.get("Website not mentioned due to data privacy on public platform")
 
     # Find the username and password fields and enter your credentials
     username = driver.find_element(By.ID, "secUserID")
     password = driver.find_element(By.ID, "secPassword")
 
-    username.send_keys("VIctoriam.texas")
-    password.send_keys("Lonestar")
+    username.send_keys("Username of the website")
+    password.send_keys("Password of the website")
 
     # Find the login button and click it
     login_button = driver.find_element(By.XPATH, "//input[@type='submit' and @value='Login']")
